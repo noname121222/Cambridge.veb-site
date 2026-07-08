@@ -1,0 +1,6 @@
+export {default as Home} from './Cambridge'
+export {default as Courses} from './Courses'
+export {default as Branches} from './Branches'
+export {default as Teacher} from './Teacher'
+export {default as Certificate} from './Certificate'
+export {default as Register} from './Register'
