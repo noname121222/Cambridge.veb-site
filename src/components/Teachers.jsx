@@ -2,9 +2,9 @@ import React, { useState } from "react";
 import AB from "../assets/Teacher1.png";
 import AC from "../assets/Teacher2.png";
 import AS from "../assets/Teacher3.png";
-import video2 from "../assets/Teacher1.mp4";
-import video3 from "../assets/Teacher2.mp4";
-import video4 from "../assets/Teacher3.mp4";
+import video2 from "../assets/video.mp4";
+import video3 from "../assets/video2.mp4";
+import video4 from "../assets/video3.mp4";
 import "./style.css";
 
 const Teachers = () => {
