@@ -674,6 +674,7 @@ background: white;
   .plus-container {
     display: flex;
     flex-direction: column;
+    margin: 0px 20px;
   }
   .plus{
     width: 100%;
@@ -868,7 +869,7 @@ background: white;
     margin-left: 0px;
   }
   .question-container{
-    width: 100%;
+    width: 93%;
     margin: 0px 20px;
   }
   .question-text{
