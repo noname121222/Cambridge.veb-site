@@ -112,12 +112,12 @@ const Teachers = () => {
               <h2 className="teacher-te">{team.info}</h2>
               <div className="teacher-box2">
                 <div className="teacher-item bg-slate-100 w-64 py-6 px-6 rounded-3xl ">
-                <div className="result-white "></div>
+                <div className="teacher-white "></div>
                   <button className="text-4xl font-bold">{team.exp}</button>
                   <p className="teacher-p text-gray-500">years of experience</p>
                 </div>
                 <div className=" teacher-item1 bg-slate-100 w-64 py-6 px-6 rounded-3xl ">
-                <div className="result-orange "></div>
+                <div className="teacher-orange "></div>
                   <button className="text-4xl font-bold">{team.studens}</button>
                   <p className="teacher-p text-gray-500">students studied</p>
                 </div>
