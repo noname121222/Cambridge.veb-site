@@ -54,6 +54,33 @@
     margin: 17px 0px;
     margin-bottom: 30px;
   }
+  .menu-container{
+    position: fixed;
+    inset: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(247 247 247 / var(--tw-bg-opacity, 1));
+    width: 100%;
+    margin: 0px 0px;
+    padding: 0px 0px;
+    box-sizing: border-box;
+    
+  }
+  .menu{
+    width: 100%;
+    margin: 0px 0px;
+    padding: 0px 20px;
+    box-sizing: border-box;
+  }
+  .box-btn {
+    border: 0px solid black;
+    padding: 8px 45px;
+    border-radius: 15px;
+    background-color: #e32323;
+    margin: 10px 0px;
+  }
   .box-nav {
     display: flex;
     align-items: center;

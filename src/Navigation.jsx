@@ -12,10 +12,10 @@ const Navigation = () => {
         <IoIosMenu  className="navigation-logo"/>
       </button>
       {open && (
-        <div className="">
-          <div className="">
-            <nav className="">
-              <div className="">
+        <div className="menu-container">
+          
+            <nav className="menu">
+              <div className="menu-header">
                 <h2 className="">Navigation</h2>
 
                 {/* Кнопка закрытия */}
@@ -37,7 +37,7 @@ const Navigation = () => {
               </button>
             </nav>
           </div>
-        </div>
+       
       )}
     </>
   );
