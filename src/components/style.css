@@ -863,7 +863,7 @@
     flex-direction: column;
     gap: 10px;
     width: 320px;
-    height: 890px;
+    height: 930px;
     background-color: #f7f6f6;
     border: 0px solid;
     border-radius: 30px;
@@ -880,7 +880,7 @@
     gap: 7px;
     align-items: center;
     background: linear-gradient(to right, #fe8116, rgb(255, 202, 67));
-    margin-top: 64px;
+    margin-top: 84px;
   }
   .lessons-btn {
     border: 0px solid;
@@ -893,7 +893,7 @@
     display: flex;
     gap: 7px;
     align-items: center;
-    margin-top: 354px;
+    margin-top: 374px;
   }
   .lessons-btn2 {
     color: white;
@@ -1001,6 +1001,67 @@
   }
   .result-box {
     width: 100%;
+    min-width: 90px;
+    max-width: 350px;
+    height: 100%;
+    padding: 20px 20px;
+    background-color: #f7f7f7;
+    box-shadow: none;
+    border-radius: 15px;
+  }
+  .result-white {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    width: 13px;
+    height: 13px;
+  }
+  .result-orange {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    width: 13px;
+    height: 13px;
+  }
+  .result-yellow {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    width: 13px;
+    height: 13px;
+  }
+  .result-green {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    width: 13px;
+    height: 13px;
+  }
+  .result-box1 {
+    width: 100%;
+    min-width: 90px;
+    max-width: 350px;
+    height: 100%;
+    padding: 20px 20px;
+    background-color: #f7f7f7;
+    box-shadow: none;
+    border-radius: 15px;
+  }
+
+  .result-box2 {
+    width: 100%;
+    min-width: 90px;
+    max-width: 350px;
+    height: 100%;
+    padding: 20px 20px;
+    background-color: #f7f7f7;
+    box-shadow: none;
+    border-radius: 15px;
+  }
+  .result-box3 {
+    width: 100%;
+    min-width: 90px;
+    max-width: 350px;
     height: 100%;
     padding: 20px 20px;
     background-color: #f7f7f7;
@@ -1067,9 +1128,21 @@
   .foto-box {
     width: 100%;
     height: 100%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
+  .str-foto4{
+    margin: 0px 0px;
+  }
+  .str-foto2{
+    margin: 0px 0px;
+  }
+
   .foto-box1 {
     width: 100%;
+   
     height: 100%;
   }
   .strength1 {
@@ -1083,18 +1156,37 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 0px 0px;
+    margin: 0px 20px;
+    width: 90%;
+  }
+  .teacher-white{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 13px;
+    height: 13px;
+  }
+  .teacher-orange{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 13px;
+    height: 13px;
   }
   .teachers-container {
     display: flex;
     flex-direction: column;
-
     width: 100%;
-
-    margin: 0px 30px;
+    margin: 0px 0px;
+    padding: 0px 20px;
+    box-sizing: border-box;
   }
   .teacher-box2 {
-    display: flex;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    height: 100%;
   }
   .teacher-big {
     display: none;
@@ -1111,12 +1203,25 @@
   }
   .video-box {
     display: flex;
+    align-items: center;
     justify-content: center;
+    
   }
   .teacher-item {
-    width: 100%;
-    height: 100%;
     box-shadow: none;
+    width: 100%;
+    min-width: 70px;
+    height: 100%;
+    max-width: 350px;
+  }
+  .teacher-item1 {
+    width: 100%;
+    min-width: 70px;
+    height: 100%;
+    max-width: 350px;
+  }
+  .teacher-box3 {
+    width: 100%;
   }
   .teacher-p {
     white-space: nowrap;
@@ -1217,7 +1322,7 @@
     margin-left: 0px;
   }
   .question-container {
-    width: 100%;
+    width: 90%;
     margin: 0px 20px;
   }
   .question-text {
@@ -1232,10 +1337,13 @@
     height: 17px;
     color: white;
   }
-  .footer-container {
+  .footer-container2 {
     display: flex;
     flex-direction: column;
   }
+  .footer-container {
+    width: 100%;
+  }                                                                                     
 }
 
 @media only screen and (min-width: 769px) and (max-width: 992px) {

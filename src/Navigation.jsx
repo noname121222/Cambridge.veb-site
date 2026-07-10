@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import "./App.css";
 import Branches from "./components/Branches";
 import { IoIosMenu } from "react-icons/io";
+import { IoClose } from "react-icons/io5";
 const Navigation = () => {
   const [open, setOpen] = useState(false);
   return (
@@ -16,14 +17,14 @@ const Navigation = () => {
           
             <nav className="menu">
               <div className="menu-header">
-                <h2 className="">Navigation</h2>
 
                 {/* Кнопка закрытия */}
-                <button className="text-3xl" onClick={() => setOpen(false)}>
-                  ×
+                <button className="menu-item" onClick={() => setOpen(false)}>
+                <IoClose className="menu-logo" />
                 </button>
               </div>
-              <button className="box-btn">
+             <div className="menu-box">
+             <button className="box-btn">
                 <a href="/certificate">Курсы</a>
               </button>
               <button className="box-btn">
@@ -35,6 +36,7 @@ const Navigation = () => {
               <button className="box-btn">
                 <a href="/courses">Сертификат</a>
               </button>
+             </div>
             </nav>
           </div>
        
