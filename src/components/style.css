@@ -863,11 +863,13 @@
     flex-direction: column;
     gap: 10px;
     width: 320px;
-    height: 930px;
+    height: 910px;
     background-color: #f7f6f6;
     border: 0px solid;
     border-radius: 30px;
     padding: 25px 25px;
+   
+    
   }
   .lessons-btn1 {
     color: white;
@@ -880,7 +882,7 @@
     gap: 7px;
     align-items: center;
     background: linear-gradient(to right, #fe8116, rgb(255, 202, 67));
-    margin-top: 84px;
+    margin-top: 77px;
   }
   .lessons-btn {
     border: 0px solid;
@@ -893,7 +895,7 @@
     display: flex;
     gap: 7px;
     align-items: center;
-    margin-top: 374px;
+    margin-top: 366px;
   }
   .lessons-btn2 {
     color: white;
@@ -906,19 +908,20 @@
     gap: 7px;
     align-items: center;
     background: linear-gradient(to right, #02bd2b, rgb(102, 229, 60));
-    margin-top: 54px;
+    margin-top: 70px;
   }
   .lessons-btn3 {
     color: white;
     padding: 16px 10px;
     font-size: 16px;
     width: 100%;
-    height: 60px;
+    height: 56px;
     display: flex;
     gap: 7px;
     align-items: center;
     border: 0px solid;
     border-radius: 15px;
+    margin-top: 20px;
     background: linear-gradient(to right, #080808, rgb(41, 41, 41));
   }
   .lessons-bt {
@@ -1252,6 +1255,7 @@
     border: 0px solid;
     border-radius: 30px;
     padding: 25px 25px;
+    position: relative;
   }
   .lessons-btn1 {
     color: white;
@@ -1264,7 +1268,8 @@
     gap: 7px;
     align-items: center;
     background: linear-gradient(to right, #fe8116, rgb(255, 202, 67));
-    margin-top: 64px;
+    position: absolute;
+    
   }
   .lessons-btn {
     border: 0px solid;
