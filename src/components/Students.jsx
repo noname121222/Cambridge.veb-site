@@ -31,7 +31,7 @@ const Students = () => {
                 Сандра. Её индивидуальный подход, не только строгость, но и
                 пример трудолюбия, помогли мне достичь этого результата.
               </p>
-              <div className=" flex items-center gap-4 my-6">
+              <div className="students-box1 flex items-center gap-4 my-6">
                 <div className="students-box2 bg-black w-36 h-32 px-3 py-3 rounded-2xl ">
                   <div className="students-gradient"></div>
                   <p className="text-white text-3xl">8.5</p>
@@ -86,7 +86,7 @@ const Students = () => {
                 очевидно.Его хорошо спланированные уроки, направленные
                 непосредственно на требования IELTS.
               </p>
-              <div className="  flex items-center gap-4 my-6">
+              <div className="students-box1  flex items-center gap-4 my-6">
                 <div className="students-box2 bg-orange-500 w-36 h-32 px-3 py-3 rounded-2xl ">
                 <div className="students-gradient"></div>
                   <p className="text-white text-4xl">8.0</p>
@@ -114,7 +114,7 @@ const Students = () => {
                 Сардору за их усилия и помощь в нашем обучении. Также благодарю
                 Cambridge за создание отличных условий для обучения.
               </p>
-              <div className="flex items-center gap-4 my-6">
+              <div className="students-box1 flex items-center gap-4 my-6">
                 <div className="students-box2 bg-amber-500 w-36 h-32 px-3 py-3 rounded-2xl ">
                 <div className="students-gradient"></div>
                   <p className="text-white text-4xl">8.0</p>
@@ -142,7 +142,7 @@ const Students = () => {
                 поддержка, ресурсы и руководство сыграли решающую роль в моей
                 подготовке и успехе.
               </p>
-              <div className="flex items-center gap-4 my-6">
+              <div className="students-box1 flex items-center gap-4 my-6">
                 <div className="students-box2 bg-lime-500 w-36 h-32 px-3 py-3 rounded-2xl ">
                 <div className="students-gradient"></div>
                   <p className="text-white text-4xl">8.0</p>
@@ -170,7 +170,7 @@ const Students = () => {
                 заинтересовать их не только к английскому языку, но и к другими
                 областям.
               </p>
-              <div className="flex items-center gap-4 my-6">
+              <div className="students-box1 flex items-center gap-4 my-6">
                 <div className="students-box2 bg-red-500 w-36 h-32 px-3 py-3 rounded-2xl ">
                 <div className="students-gradient"></div>
                   <p className="text-white text-4xl">8.0</p>
