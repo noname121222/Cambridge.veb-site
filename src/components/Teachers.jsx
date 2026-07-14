@@ -2,9 +2,9 @@ import React, { useState } from "react";
 import AB from "../assets/Teacher1.png";
 import AC from "../assets/Teacher2.png";
 import AS from "../assets/Teacher3.png";
-import video from "../assets/Video-sardor.MP4";
-import video3 from "../assets/video2.mp4";
-import video4 from "../assets/video3.mp4";
+import video from "/y/public/Video-sardor.mp4"
+import video2 from "/y/public/video2.mp4"
+import video3 from "/y/public/video3.mp4"
 import "./style.css";
 
 const Teachers = () => {
@@ -25,7 +25,7 @@ const Teachers = () => {
       image: AC,
       title: "Jakhongir Abbasov",
       bal: "IELTS 8",
-      video: video3,
+      video: video2,
       info: "Будучи ведущим преподавателем с 8-летним опытом работы в престижных академических учреждениях, я успешно обучаю студентов из различных социальных и культурных слоев. Говорят, что я отличный собеседник и искренний человек . Люблю путешествовать и проводить время со своими студентами.",
       exp: "8+",
       studens: "3000+",
@@ -36,7 +36,7 @@ const Teachers = () => {
       image: AS,
       title: "Alijon Rakhmatov",
       bal: "IELTS 8",
-      video: video4,
+      video: video3,
       info: "Я целеустремленный человек, который постоянно стремится к самосовершенствованию и старается поддерживать у своих студентов позитивный настрой. Я делюсь со своими студентами опытом, приобретенным за 10 лет за границей. Настроение 24/7 позитивное.",
       exp: "5+",
       studens: "2500+",
