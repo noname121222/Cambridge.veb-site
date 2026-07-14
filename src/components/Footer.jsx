@@ -13,7 +13,7 @@ const Footer = () => {
       <footer className="footer-container">
         <div className="  footer-container3">
           <div className="footer-logo2">
-          <img src={Logo} alt="" className="text-white" />
+            <img src={Logo} alt="" className="text-white" />
           </div>
           <div className="footer-container2 ">
             <div className="footer-logo">
@@ -73,7 +73,12 @@ const Footer = () => {
                 <FaInstagram className="w-7 h-7" />
                 <LiaTelegramPlane className="w-7 h-7" />
               </div>
-              <button className="footer-btn py-4 px-10 rounded-2xl text-xl ">
+              <button
+                onClick={() =>
+                  alert("Простите,этот способ оплаты временно недоступен !")
+                }
+                className="footer-btn py-4 px-10 rounded-2xl text-xl cursor-pointer"
+              >
                 Оплатить онлайн
               </button>
             </div>

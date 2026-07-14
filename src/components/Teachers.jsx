@@ -103,6 +103,7 @@ const Teachers = () => {
           <div className="teachers-box1">
             <div className="video-box">
               <video
+              key={team.id}
                 preload="auto"
                 className="teachers-video"
                 src={team.video}
