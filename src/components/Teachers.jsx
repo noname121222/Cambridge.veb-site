@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import AB from "../assets/Teacher1.png";
 import AC from "../assets/Teacher2.png";
 import AS from "../assets/Teacher3.png";
-import video2 from "../assets/video.mp4";
+import video from "../assets/Video-sardor.MP4";
 import video3 from "../assets/video2.mp4";
 import video4 from "../assets/video3.mp4";
 import "./style.css";
@@ -14,7 +14,7 @@ const Teachers = () => {
       image: AB,
       title: "Sardor Erkinov",
       bal: "IELTS 8.5",
-      video: video2,
+      video: video,
       info: "Mr. Sardor - я выиграл награду 'Инструктор IELTS 2023 года'. Моя главная цель - помочь как можно большему количеству студентов получить высокие баллы (7.0+). Если вы хотите улучшить свои навыки writing и reading, вы не ошибетесь, выбрав меня.",
       exp: "6+",
       studens: "2000+",
