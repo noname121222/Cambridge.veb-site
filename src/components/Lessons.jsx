@@ -57,16 +57,18 @@ const Lessons = () => {
                 преподавателя.
               </p>
             </div>
-            <div>
+            <div className="lessons-box2">
               <a
                 className="lessons-btn mt-56"
                 href="https://cambridge-registration.vercel.app/"
                
               >
-                <button className="ml-14 cursor-pointer">
+         
+              <button className=" cursor-pointer">
                   Запишитесь на первый урок
                 </button>
                 <BsStars className="cursor-pointer" />
+     
               </a>
             </div>
           </div>
@@ -131,7 +133,7 @@ const Lessons = () => {
                 href="https://cambridge-registration.vercel.app/"
               
               >
-                <button className="ml-14 cursor-pointer">
+                <button className=" cursor-pointer">
                   Запишитесь на первый урок
                 </button>
                 <BsStars className="cursor-pointer" />
@@ -199,7 +201,7 @@ const Lessons = () => {
                 href="https://cambridge-registration.vercel.app/"
                 
               >
-                <button className="ml-14 cursor-pointer">
+                <button className=" cursor-pointer">
                   Запишитесь на первый урок
                 </button>
                 <BsStars className="cursor-pointer" />
@@ -273,7 +275,7 @@ const Lessons = () => {
                 href="https://cambridge-registration.vercel.app/"
                 
               >
-                <button className="ml-14 cursor-pointer">
+                <button className=" cursor-pointer">
                   Запишитесь на первый урок
                 </button>
                 <BsStars className="cursor-pointer" />

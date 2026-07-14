@@ -6,7 +6,7 @@ const Certificate = () => {
   return (
    <>
    <Res/>
-   <Footer/>
+
    </>
   )
 }

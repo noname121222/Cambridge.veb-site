@@ -9,7 +9,7 @@ import amity from "../assets/amity.svg";
 import london from "../assets/london.svg";
 import hertfordshire from "../assets/hertfordshire.svg";
 
-const Strength = () => {
+const   Strength = () => {
   return (
     <>
       <section>

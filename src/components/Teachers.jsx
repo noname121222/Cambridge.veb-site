@@ -52,7 +52,8 @@ const Teachers = () => {
             Настоящие герои, вы можете познакомиться с ними ниже
           </p>
         </div>
-        <div className="teachers-container">
+      <div className="teachers-container2">
+      <div className="teachers-container">
           <div className="teacher-big">
             {items.map((item, index) => (
               <div
@@ -125,6 +126,7 @@ const Teachers = () => {
             </div>
           </div>
         </div>
+      </div>
       </section>
     </>
   );

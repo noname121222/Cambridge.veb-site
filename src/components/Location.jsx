@@ -51,15 +51,15 @@ const Location = () => {
           </p>
         </div>
 
-      <div className="flex carousel gap-3 mx-3 ">
+      <div className="  flex carousel gap-3 mx-3 ">
         {branches.map((branch, idx) => (
           <div
             key={idx}
             className="location-container w-3/6 h-96 rounded-2xl bg-cover carousel-item pb-4"
             style={{ backgroundImage: `url(${branch.img})` }}
           >
-            <div className="">
-              <p className="text-white text-4xl font-bold pt-64 pl-5">
+            <div className="location-box3">
+              <p className="location-text text-white text-4xl font-bold pt-64 pl-5">
                 {branch.name}
               </p>
 

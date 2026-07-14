@@ -1,28 +1,28 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import "./App.css";
 import Branches from "./components/Branches";
 import { IoIosMenu } from "react-icons/io";
-import { IoClose } from "react-icons/io5";
+import { IoIosClose } from "react-icons/io";
 const Navigation = () => {
   const [open, setOpen] = useState(false);
+  useEffect(() => {
+    document.body.style.overflow = open ? "hidden" : "auto";
+    return () =>{
+      document.body.style.overflow = "auto"
+    }
+  },[open])
   return (
     <>
       <button className=" navigation-button " onClick={() => setOpen(!open)}>
-        <IoIosMenu  className="navigation-logo"/>
+     {open ?  <IoIosClose className="menu-logo" /> : <IoIosMenu  className="navigation-logo"/>}   
       </button>
       {open && (
         <div className="menu-container">
           
             <nav className="menu">
-              <div className="menu-header">
-
-                {/* Кнопка закрытия */}
-                <button className="menu-item" onClick={() => setOpen(false)}>
-                <IoClose className="menu-logo" />
-                </button>
-              </div>
+            
              <div className="menu-box">
              <button className="box-btn">
                 <a href="/certificate">Курсы</a>

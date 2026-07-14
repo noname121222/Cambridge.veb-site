@@ -52,10 +52,12 @@
     width: 48px;
     height: 32px;
     margin: 17px 0px;
-    margin-bottom: 30px;
+    margin-bottom: 33px;
   }
   .menu-container{
     position: fixed;
+    top: 0;
+   left: 0;
     inset: 0;
     z-index: 1000;
     display: flex;
@@ -63,6 +65,7 @@
     align-items: center;
     background-color: white;
     width: 100%;
+    height: 100vh;
     margin: 0px 0px;
     padding: 0px 0px;
     box-sizing: border-box;
@@ -72,7 +75,7 @@
     width: 100%;
     height: 100%;
     margin: 0px 0px;
-    padding: 0px 20px;
+    padding: 40px 20px;
     box-sizing: border-box;
     position: relative;
     
@@ -95,9 +98,10 @@
 
   }
   .menu-logo{
- 
-    width: 30px ;
-    height: 30px;
+    position: relative;
+    z-index: 1001;
+    width: 50px ;
+    height: 50px;
   }
   .box-btn {
     border: 0px solid black;
@@ -125,9 +129,13 @@
   .logo-nav {
     width: 170px;
     height: auto;
+    position: relative;
+    z-index: 1001;
     
   }
   .nav-btn{
+    position: relative;
+    z-index: 1001;
     margin-right: 0px;
   }
   
@@ -163,17 +171,20 @@
     width: 48px;
     height: 32px;
     margin: 17px 0px;
-    margin-bottom: 30px;
+    margin-bottom: 33px;
   }
   .menu-container{
     position: fixed;
+    top: 0;
+   left: 0;
     inset: 0;
     z-index: 1000;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: white;
-    width: 100%;
+    width: 65%;
+    height: 100vh;
     margin: 0px 0px;
     padding: 0px 0px;
     box-sizing: border-box;
@@ -183,7 +194,7 @@
     width: 70%;
     height: 100%;
     margin: 0px 0px;
-    padding: 0px 20px;
+    padding: 40px 20px;
     box-sizing: border-box;
     position: relative;
     
@@ -207,8 +218,8 @@
   }
   .menu-logo{
  
-    width: 30px ;
-    height: 30px;
+    width: 50px ;
+    height: 50px;
   }
   .box-btn {
     border: 0px solid black;
@@ -236,6 +247,8 @@
   .logo-nav {
     width: 170px;
     height: auto;
+    position: relative;
+    z-index: 1001;
     
   }
   .nav-btn{
@@ -275,10 +288,70 @@
     width: 48px;
     height: 32px;
     margin: 17px 0px;
+    margin-bottom: 33px;
   }
   .box-nav {
     display: flex;
     align-items: center;
+  }
+  .menu-container{
+    position: fixed;
+    top: 0;
+   left: 0;
+    inset: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 75%;
+    height: 100vh;
+    margin: 0px 0px;
+    padding: 0px 0px;
+    box-sizing: border-box;
+    
+  }
+  .menu{
+    width: 100%;
+    height: 100%;
+    margin: 0px 0px;
+    padding: 40px 20px;
+    box-sizing: border-box;
+    position: relative;
+    
+    
+    
+
+  }
+  .menu-item{
+    position: absolute;
+    top: 30px; 
+    right: 25px;
+  }
+  
+  .box-btn {
+    border: 0px solid black;
+    padding: 15px 45px;
+    border-radius: 15px;
+    background-color: rgb(247 247 247 / var(--tw-bg-opacity, 1));
+    margin: 10px 0px;
+    width: 100%;
+  }
+ 
+  .menu-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+   margin-top: 70px;
+
+  }
+  
+  .menu-logo{
+ 
+    width: 50px ;
+    height: 50px;
   }
  
   .nav-container {
@@ -294,6 +367,8 @@
   .logo-nav {
     width: 170px;
     height: auto;
+    position: relative;
+    z-index: 1001;
     
   }
   .nav-btn{
@@ -330,6 +405,25 @@
     margin: 20px 0px;
     padding: 0px 25px ;
     box-sizing: border-box;
+  }
+  .navigation-button{
+    display: none;
+  }
+}
+
+@media only screen  and  (min-width:1240px) {
+ 
+  .nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+    padding: 17px 20px;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 1240px;
+    margin: 0 auto;
+    
   }
   .navigation-button{
     display: none;
