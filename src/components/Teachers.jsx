@@ -103,7 +103,7 @@ const Teachers = () => {
               key={team.id}
                 preload="auto"
                 className="teachers-video"
-                src="https://www.w3schools.com/html/mov_bbb.mp4"
+                src={team.video}
                 controls
               ></video>
             </div>
