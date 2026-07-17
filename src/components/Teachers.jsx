@@ -99,11 +99,11 @@ const Teachers = () => {
 
           <div className="teachers-box1">
             <div className="video-box">
-              <video
+     <video
               key={team.id}
                 preload="auto"
                 className="teachers-video"
-                src={team.video}
+                src="https://www.w3schools.com/html/mov_bbb.mp4"
                 controls
               ></video>
             </div>
