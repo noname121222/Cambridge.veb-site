@@ -25,7 +25,7 @@ const Navigation = () => {
             
              <div className="menu-box">
              <button className="box-btn">
-                <a href="/certificate">Курсы</a>
+                <a href="/certificate">Курсы </a>
               </button>
               <button className="box-btn">
                 <a href="/branches">Филиалы</a>
