@@ -49,82 +49,84 @@ const Teachers = () => {
             Настоящие герои, вы можете познакомиться с ними ниже
           </p>
         </div>
-      <div className="teachers-container2">
-      <div className="teachers-container">
-          <div className="teacher-big">
-            {items.map((item, index) => (
-              <div
-                onClick={() => setTeam(items[item.id - 1])}
-                key={item.id}
-                className={` teachers-box ${team.id === item.id ? "active" : ""} `}
-              >
-                <img
-                  className="teachers-foto"
-                  src={item.image}
-                  alt={item.title}
-                />
-                <div className="teachers">
-                  <h2 className="text-xl font-bold">{item.title}</h2>
-                  <p className="text-gray-500">{item.bal}</p>
+        <div className="teachers-container2">
+          <div className="teachers-container">
+            <div className="teacher-big">
+              {items.map((item, index) => (
+                <div
+                  onClick={() => setTeam(items[item.id - 1])}
+                  key={item.id}
+                  className={` teachers-box ${
+                    team.id === item.id ? "active" : ""
+                  } `}
+                >
+                  <img
+                    className="teachers-foto"
+                    src={item.image}
+                    alt={item.title}
+                  />
+                  <div className="teachers">
+                    <h2 className="text-xl font-bold">{item.title}</h2>
+                    <p className="text-gray-500">{item.bal}</p>
+                  </div>
                 </div>
-              </div>
-              
-
-              
-            ))}
-          </div>
-
-          <div className="teacher-big2 carousel">
-            {items.map((item, index) => (
-              <div
-                onClick={() => setTeam(items[item.id - 1])}
-                key={item.id}
-                className={` teachers-box carousel-item ${team.id === item.id ? "active" : ""} `}
-              >
-                <img
-                  className="teachers-foto"
-                  src={item.image}
-                  alt={item.title}
-                />
-                <div className="teachers carousel-item">
-                  <h2 className="text-xl font-bold">{item.title}</h2>
-                  <p className="text-gray-500">{item.bal}</p>
-                </div>
-              </div>
-              
-
-              
-            ))}
-          </div>
-
-          <div className="teachers-box1">
-            <div className="video-box">
-     <video
-              key={team.id}
-                preload="auto"
-                className="teachers-video"
-                src={team.video}
-                controls
-              ></video>
+              ))}
             </div>
-            <div className="teacher-box3">
-              <h2 className="teacher-te">{team.info}</h2>
-              <div className="teacher-box2">
-                <div className="teacher-item bg-slate-100 w-64 py-6 px-6 rounded-3xl ">
-                <div className="teacher-white "></div>
-                  <button className="text-4xl font-bold">{team.exp}</button>
-                  <p className="teacher-p text-gray-500">years of experience</p>
+
+            <div className="teacher-big2 carousel">
+              {items.map((item, index) => (
+                <div
+                  onClick={() => setTeam(items[item.id - 1])}
+                  key={item.id}
+                  className={` teachers-box carousel-item ${
+                    team.id === item.id ? "active" : ""
+                  } `}
+                >
+                  <img
+                    className="teachers-foto"
+                    src={item.image}
+                    alt={item.title}
+                  />
+                  <div className="teachers carousel-item">
+                    <h2 className="text-xl font-bold">{item.title}</h2>
+                    <p className="text-gray-500">{item.bal}</p>
+                  </div>
                 </div>
-                <div className=" teacher-item1 bg-slate-100 w-64 py-6 px-6 rounded-3xl ">
-                <div className="teacher-orange "></div>
-                  <button className="text-4xl font-bold">{team.studens}</button>
-                  <p className="teacher-p text-gray-500">students studied</p>
+              ))}
+            </div>
+
+            <div className="teachers-box1">
+              <div className="video-box">
+                <video
+                  key={team.id}
+                  preload="auto"
+                  className="teachers-video"
+                  src={team.video}
+                  controls
+                ></video>
+              </div>
+              <div className="teacher-box3">
+                <h2 className="teacher-te">{team.info}</h2>
+                <div className="teacher-box2">
+                  <div className="teacher-item bg-slate-100 w-64 py-6 px-6 rounded-3xl ">
+                    <div className="teacher-white "></div>
+                    <button className="text-4xl font-bold">{team.exp}</button>
+                    <p className="teacher-p text-gray-500">
+                      years of experience
+                    </p>
+                  </div>
+                  <div className=" teacher-item1 bg-slate-100 w-64 py-6 px-6 rounded-3xl ">
+                    <div className="teacher-orange "></div>
+                    <button className="text-4xl font-bold">
+                      {team.studens}
+                    </button>
+                    <p className="teacher-p text-gray-500">students studied</p>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
       </section>
     </>
   );

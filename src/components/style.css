@@ -1023,7 +1023,20 @@
   .footer-logo2{
     display: none;
    }
-  
+   .footer-item2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 30px;
+    row-gap: 1px;
+    width: 100%;
+  }
+  .footer-item {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 30px;
+    row-gap: 1px;
+    width: 100%;
+  }
   
 }
 
@@ -2383,6 +2396,16 @@
     display: block;
   }
 }
+@media only screen and (min-width:1100px) and (max-width:1240px) {
+  .video-box {
+    width: 100%;
+    max-width: 328px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+}
 
 @media only screen and (min-width:1239px) {
   .about-font {
@@ -2599,7 +2622,7 @@
   }
   .teachers-container {
     display: flex;
-    gap: 15px;
+    gap: 0px;
     width: 100%;
     margin: 0px 0px;
     padding: 0px 30px;
@@ -2614,7 +2637,7 @@
 
   .video-box {
     width: 100%;
-    max-width: 270px;
+    max-width: 328px;
     display: flex;
     align-items: center;
     justify-content: center;

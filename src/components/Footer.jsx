@@ -45,7 +45,7 @@ const Footer = () => {
                   className="flex  gap-1 text-gray-500 cursor-pointer"
                   href="/branches"
                 >
-                  <p className="text-xl ">Филиалы</p>
+                  <p className="text-xl ">Филиалы</p> 
                   <GoArrowUpRight className="w-5 h-5" />
                 </a>
                 <a

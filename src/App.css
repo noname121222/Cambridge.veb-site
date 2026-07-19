@@ -31,6 +31,7 @@
   background: linear-gradient(to right, #fe8116, rgb(255, 202, 67));
   cursor: pointer;
 }
+
 .nav-button:hover {
   box-shadow: 0 10px 20px -5px #fe8116;
 }
